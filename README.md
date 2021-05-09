@@ -1,5 +1,5 @@
 # date-calculator-cli
-Command line interface to [date-calculator](https://github.com/vorticity/date-calculator) library
+Simple command line interface to the [date-calculator](https://github.com/vorticity/date-calculator) library.
 
 ## Installation
 Clone this repository, navigate to the repository root and run:
