@@ -50,6 +50,7 @@ version = "1.0.0"
 reference = "e8a4b6f29ecb1eb0aa60acdad8f95c850d4a9577"
 type = "git"
 url = "https://github.com/vorticity/date-calculator.git"
+
 [[package]]
 category = "dev"
 description = "More routines for operating on iterables, beyond itertools"
@@ -126,8 +127,16 @@ optional = false
 python-versions = "*"
 version = "0.2.5"
 
+[[package]]
+category = "dev"
+description = "A formatter for Python code."
+name = "yapf"
+optional = false
+python-versions = "*"
+version = "0.31.0"
+
 [metadata]
-content-hash = "50c7389216ede05e4cd9cc07ead77752fe39fb932938e52a9ff3beb933e934c2"
+content-hash = "563ad74ceb3efa187edce77c93fcd4060f8ef6fbb3071bec434cf16f172f2f6a"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -176,4 +185,8 @@ pytest = [
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
     {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},
+]
+yapf = [
+    {file = "yapf-0.31.0-py2.py3-none-any.whl", hash = "sha256:e3a234ba8455fe201eaa649cdac872d590089a18b661e39bbac7020978dd9c2e"},
+    {file = "yapf-0.31.0.tar.gz", hash = "sha256:408fb9a2b254c302f49db83c59f9aa0b4b0fd0ec25be3a5c51181327922ff63d"},
 ]

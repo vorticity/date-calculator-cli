@@ -11,6 +11,10 @@ date-calculator = {git = "https://github.com/vorticity/date-calculator.git", rev
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+yapf = "^0.31.0"
+
+[tool.poetry.scripts]
+date-calculator-cli = "date_calculator_cli.cli:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
