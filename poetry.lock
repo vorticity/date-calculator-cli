@@ -39,6 +39,18 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 version = "0.4.4"
 
 [[package]]
+category = "main"
+description = ""
+name = "date-calculator"
+optional = false
+python-versions = "^3.7"
+version = "1.0.0"
+
+[package.source]
+reference = "e8a4b6f29ecb1eb0aa60acdad8f95c850d4a9577"
+type = "git"
+url = "https://github.com/vorticity/date-calculator.git"
+[[package]]
 category = "dev"
 description = "More routines for operating on iterables, beyond itertools"
 name = "more-itertools"
@@ -115,7 +127,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "03a7877df5df1c9feba6ceab80038b667a90ebecb8f328fc75ad58d516dddddd"
+content-hash = "50c7389216ede05e4cd9cc07ead77752fe39fb932938e52a9ff3beb933e934c2"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -136,6 +148,7 @@ colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
     {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
+date-calculator = []
 more-itertools = [
     {file = "more-itertools-8.7.0.tar.gz", hash = "sha256:c5d6da9ca3ff65220c3bfd2a8db06d698f05d4d2b9be57e1deb2be5a45019713"},
     {file = "more_itertools-8.7.0-py3-none-any.whl", hash = "sha256:5652a9ac72209ed7df8d9c15daf4e1aa0e3d2ccd3c87f8265a0673cd9cbc9ced"},

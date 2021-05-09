@@ -7,6 +7,7 @@ authors = ["Edwin Erdmanis <edwin.erdmanis@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^7.1.2"
+date-calculator = {git = "https://github.com/vorticity/date-calculator.git", rev = "main"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
