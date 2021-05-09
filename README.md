@@ -5,4 +5,6 @@ Command line interface to date-calculator library
 poetry install
 
 ## Usage
-date-calculator-cli <dd/mm/yyyy> <dd/mm/yyyy>
+poetry shell
+
+date-calculator-cli <DD/MM/YYYY> <DD/MM/YYYY>
